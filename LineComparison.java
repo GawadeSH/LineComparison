@@ -19,7 +19,8 @@ public class LineComparison
         System.out.println("length between point2 and 3:-"+len2);
 
         System.out.println(len1 + " .equals " + len2 + ": " + len1.equals(len2));
-
+        int a=(len1.compareTo(len2));
+        System.out.println(a);
     }
 }
 
